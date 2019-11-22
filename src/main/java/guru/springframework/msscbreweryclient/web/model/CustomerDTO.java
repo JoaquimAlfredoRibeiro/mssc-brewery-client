@@ -8,16 +8,14 @@ import lombok.NoArgsConstructor;
 import java.util.UUID;
 
 /**
- * Created by jt on 2019-04-20.
+ * Created by jt on 2019-04-21.
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDto {
+public class CustomerDTO {
 
     private UUID id;
-    private String beerName;
-    private String beerStyle;
-    private Long upc;
+    private String name;
 }
